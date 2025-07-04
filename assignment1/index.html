@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess my number</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="div1">
+        <button class="btn" onclick=refer()> 🔁 Again</button>
+        <h1 class="title">Guess the number</h1>
+        <p class="para">{Between 1 to 20}</p>
+    </div>
+    
+    <hr>
+    <div class="div2">
+        <h1 class="div2-h1" id="number">?</h1>
+    </div>
+    <div class="div3">
+        <div class="input">
+            <input class="inp" type="number" id="value" min="1" max="20"> <br>
+            <button class="btn1" id="checking" onclick=check()>✔️ CHECK</button>
+        </div>
+        <div class="div4">
+            <p class="p1" id="results_value">Start Game.... 🎮</p>
+            <p class="p1" >Score : <span id="value1">20</span></p>
+            <p class="p1" >high score : <span id="high_score">0</span> </p>
+        </div>
+        
+    </div>
+    <script src="guessmynumber.js"></script>
+    
+
+    
+</body>
+</html>
